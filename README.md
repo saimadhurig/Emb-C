@@ -2,16 +2,16 @@
 #  EMBEDDED-C PROJECT
 ![image](https://user-images.githubusercontent.com/81443037/116758813-8adeb200-aa2e-11eb-8183-11c8e96aa50b.png)
 
-# ACTIVITY 1
+# ACTIVITY 1 - SIMULATION
 ![image](https://user-images.githubusercontent.com/81443037/116759074-11938f00-aa2f-11eb-86d5-e0502e3ca1cd.png)
 
-# ACTIVITY 2
+# ACTIVITY 2 - SIMULATION
 ![image](https://user-images.githubusercontent.com/81443037/116759176-5b7c7500-aa2f-11eb-8951-977bd85e515d.png)
 
-# ACTIVITY 3
+# ACTIVITY 3 - SIMULATION
 ![image](https://user-images.githubusercontent.com/81443037/116759308-aac2a580-aa2f-11eb-9214-ba1df06ef2a4.png)
 
-# ACTIVITY 4
+# ACTIVITY 4 - SIMULATION
 ![image](https://user-images.githubusercontent.com/81443037/116759487-0c830f80-aa30-11eb-9c9d-e35c30179783.png)
 
 
