@@ -3,7 +3,10 @@
 # PROJECT
 ![image](https://user-images.githubusercontent.com/81443037/116758813-8adeb200-aa2e-11eb-8183-11c8e96aa50b.png)
 
-#ACTIVITY 1
+# ACTIVITY 1
+![image](https://user-images.githubusercontent.com/81443037/116759074-11938f00-aa2f-11eb-86d5-e0502e3ca1cd.png)
+
+
 
 
 #### CI and Code Quality
