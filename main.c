@@ -13,7 +13,7 @@
 #include "ledstatus.h"
 #include "ReadingADC.h"
 #include "OutputPWM.h"
-#include"UART.h"
+#include"activity4.h"
 #include<avr/io.h>
 
 
@@ -31,7 +31,7 @@ void init(void)
     /*Configure PWM registers and pins*/
     InitialisePWM();
     /*Configure UART serial communication pin*/
-    InitUART(103);
+    InitialiseUSART(103);
 }
     
    
@@ -51,7 +51,7 @@ int main(void)
                 ledstatus(LED_IS_ON);//LED is ON
                 tem=ReadingADC(0);
                 tem_data = OutputPWM(tem);
-                UARTwrite(tem_data);
+                writeUSART(tem_data);
 
             }
             else
