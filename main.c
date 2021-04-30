@@ -44,11 +44,11 @@ int main(void)
     
     while(1)
     {
-        if(IS_SENSOR_ON) //If switch_1 is ON
+        if(SENSOR_IS_ON) //If switch_1 is ON
         {
-            if(HEAT_ON) //If switch_2 is ON
+            if(HEATER_ON) //If switch_2 is ON
             {
-                ledstatus(TURN_LED_ON);//LED is ON
+                ledstatus(LED_IS_ON);//LED is ON
                 tem=ReadingADC(0);
                 tem_data = OutPWM(temp);
                 UARTwrite(tem_data);
@@ -57,12 +57,12 @@ int main(void)
             else
             {
                 
-                ledstatus(TURN_LED_OFF);
+                ledstatus(LED_IS_OFF);
             }
         }
         else
         {
-            ledstatus(TURN_LED_OFF);//LED is OFF
+            ledstatus(LED_IS_OFF);//LED is OFF
             OCR1A=0;
         }
     }
