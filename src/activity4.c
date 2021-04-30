@@ -1,4 +1,4 @@
-**
+/**
  * @file activity4.c
  * @author sai madhuri g
  * @brief Function definition of UART serial communication
