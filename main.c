@@ -11,7 +11,7 @@
 
 
 #include "ledstatus.h"
-#include "ReadADC.h"
+#include "ReadingADC.h"
 #include "OutPWM.h"
 #include"UART.h"
 #include<avr/io.h>
@@ -27,7 +27,7 @@ void init(void)
     /*Configure LED and Switch pins*/
     InitialiseLED();
     /*Configure ADC registers and pins*/
-    InitADC();
+    InitialiseADC();
     /*Configure PWM registers and pins*/
     InitPWM();
     /*Configure UART serial communication pin*/
@@ -35,13 +35,12 @@ void init(void)
 }
     
    
-uint16_t temp;
-char temp_data;
+uint16_t tem;
+char tem_data;
 int main(void)
 {
-    /*uint16_t temp;*/
-    // Initialize peripherals
-    init();
+    
+     init();
     
     while(1)
     {
@@ -50,15 +49,15 @@ int main(void)
             if(HEAT_ON) //If switch_2 is ON
             {
                 ledstatus(TURN_LED_ON);//LED is ON
-                temp=ReadADC(0);
-                temp_data = OutPWM(temp);
-                UARTwrite(temp_data);
+                tem=ReadingADC(0);
+                tem_data = OutPWM(temp);
+                UARTwrite(tem_data);
 
             }
             else
             {
                 
-                ledstat(TURN_LED_OFF);
+                ledstatus(TURN_LED_OFF);
             }
         }
         else
