@@ -22,8 +22,8 @@
 
 //Macro definition 
 
-#define TURN_LED_ON 	(0x01)			/**< LED state HIGH */
-#define TURN_LED_OFF	(0x00)			/**< LED state LOW */
+#define LED_IS_ON 	(0x01)			/**< LED state HIGH */
+#define LED_IS_OFF	(0x00)			/**< LED state LOW */
 
 
 #define LED_PORT (PORTB)    /**< LED Port Number */
