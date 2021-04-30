@@ -6,7 +6,7 @@ BUILD_DIR = Build
 SRC = src/ReadingADC.c\
 src/ledstatus.c\
 src/OutputPWM.c\
-src/UART.c\
+src/activity4.c\
 main.c\
 
 # All header file paths
