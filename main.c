@@ -1,16 +1,16 @@
 /**
  * @file main.c
- * @author 260213 (you@domain.com)
+ * @author sai madhuri g
  * @brief Activity_1
  * @version 0.1
- * @date 2021-04-24
+ * @date 2021-04-29
  * 
  * @copyright Copyright (c) 2021
  * 
  */
 
 
-#include "ledstat.h"
+#include "ledstatus.h"
 #include "ReadADC.h"
 #include "OutPWM.h"
 #include"UART.h"
@@ -22,10 +22,10 @@
  * 
  */
 
-void peripheral_init(void)
+void init(void)
 {
     /*Configure LED and Switch pins*/
-    InitLED();
+    InitialiseLED();
     /*Configure ADC registers and pins*/
     InitADC();
     /*Configure PWM registers and pins*/
@@ -41,15 +41,15 @@ int main(void)
 {
     /*uint16_t temp;*/
     // Initialize peripherals
-    peripheral_init();
+    init();
     
     while(1)
     {
-        if(SENSOR_ON) //If switch_1 is ON
+        if(IS_SENSOR_ON) //If switch_1 is ON
         {
             if(HEAT_ON) //If switch_2 is ON
             {
-                ledstat(LED_ON);//LED is ON
+                ledstatus(TURN_LED_ON);//LED is ON
                 temp=ReadADC(0);
                 temp_data = OutPWM(temp);
                 UARTwrite(temp_data);
@@ -58,12 +58,12 @@ int main(void)
             else
             {
                 
-                ledstat(LED_OFF);
+                ledstat(TURN_LED_OFF);
             }
         }
         else
         {
-            ledstat(LED_OFF);//LED is OFF
+            ledstatus(TURN_LED_OFF);//LED is OFF
             OCR1A=0;
         }
     }
