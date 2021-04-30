@@ -34,9 +34,8 @@ void init(void)
     InitialiseUSART(103);
 }
     
-   
-uint16_t tem;
 char tem_data;
+uint16_t tem;
 int main(void)
 {
     
