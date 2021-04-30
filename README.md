@@ -9,6 +9,10 @@
 # ACTIVITY 2
 ![image](https://user-images.githubusercontent.com/81443037/116759176-5b7c7500-aa2f-11eb-8951-977bd85e515d.png)
 
+# ACTIVITY 3
+![image](https://user-images.githubusercontent.com/81443037/116759308-aac2a580-aa2f-11eb-9214-ba1df06ef2a4.png)
+
+
 
 
 #### CI and Code Quality
