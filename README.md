@@ -1,12 +1,10 @@
 # Embedded C Programming Examples with Continuous Integration and Code Quality
 
-# LED Blinking 
+# PROJECT
+![image](https://user-images.githubusercontent.com/81443037/116758813-8adeb200-aa2e-11eb-8183-11c8e96aa50b.png)
 
-## In Action
+#ACTIVITY 1
 
-|ON|OFF|
-|:--:|:--:|
-|![ON](simulation/ON.png)|![OFF](simulation/OFF.png)|
 
 #### CI and Code Quality
 
