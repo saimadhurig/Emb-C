@@ -21,7 +21,7 @@ void ledstatus(uint8_t state)
 {
 	LED_PORT = (state << LED_PIN);
 }
-void InitLED(void)
+void InitialiseLED(void)
 {
 	DDRB|=(1<<PB1);
     DDRD&=~(1<<PD1);
