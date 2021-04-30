@@ -17,6 +17,7 @@
  * @param ch 
  * @return uint16_t 
  */
-uint16_t ReadingADC(uint8_t ch);
+
 void InitialiseADC();
+uint16_t ReadingADC(uint8_t ch);
 #endif
