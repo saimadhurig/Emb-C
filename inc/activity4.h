@@ -12,22 +12,22 @@
 #ifndef __ACTIVITY4_H__
 #define __ACTIVITY4_H__
 #include<avr/io.h>
-/**
- * @brief Inittialize USART serial communication ports
- * 
- * @param ubrr 
- */
-void InitialiseUSART(uint16_t ubrr);
-/**
- * @brief Read characters from USART port
- * @return char
- */
-char readUSART();
+
 /**
  * @brief Write characters to USART port
  * 
  * @param data 
  */
 void writeUSART(char data);
-
+/**
+ * @brief Read characters from USART port
+ * @return char
+ */
+char readUSART();
+/**
+ * @brief Inittialize USART serial communication ports
+ * 
+ * @param ubrr 
+ */
+void InitialiseUSART(uint16_t ubrr);
 #endif
