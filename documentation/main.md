@@ -1,1 +1,1 @@
-@mainpage Blinky Example by Bharath G @subpage project_main.c
+@mainpage Heating seat of vehicle by sai madhuri g  @subpage main.c
