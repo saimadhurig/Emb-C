@@ -11,12 +11,6 @@
 #include<avr/io.h>
 #include "ReadingADC.h"
 
-void InitialiseADC()
-{
-    ADMUX=(1<<REFS0);
-    ADCSRA=(1<<ADEN)|(7<<ADPS0);
-    
-}
 uint16_t ReadingADC(uint8_t cha)
 {
     
@@ -30,4 +24,10 @@ uint16_t ReadingADC(uint8_t cha)
    
     ADCSRA|=(1<<ADIF);
     return(ADC);
+}
+void InitialiseADC()
+{
+    ADMUX=(1<<REFS0);
+    ADCSRA=(1<<ADEN)|(7<<ADPS0);
+    
 }
