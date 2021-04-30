@@ -6,6 +6,8 @@
 # ACTIVITY 1
 ![image](https://user-images.githubusercontent.com/81443037/116759074-11938f00-aa2f-11eb-86d5-e0502e3ca1cd.png)
 
+# ACTIVITY 2
+![image](https://user-images.githubusercontent.com/81443037/116759176-5b7c7500-aa2f-11eb-8951-977bd85e515d.png)
 
 
 
