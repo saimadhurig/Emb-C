@@ -1,6 +1,5 @@
-# Embedded C Programming Examples with Continuous Integration and Code Quality
 
-# PROJECT
+#  EMBEDDED-C PROJECT
 ![image](https://user-images.githubusercontent.com/81443037/116758813-8adeb200-aa2e-11eb-8183-11c8e96aa50b.png)
 
 # ACTIVITY 1
@@ -12,6 +11,8 @@
 # ACTIVITY 3
 ![image](https://user-images.githubusercontent.com/81443037/116759308-aac2a580-aa2f-11eb-9214-ba1df06ef2a4.png)
 
+# ACTIVITY 4
+![image](https://user-images.githubusercontent.com/81443037/116759487-0c830f80-aa30-11eb-9c9d-e35c30179783.png)
 
 
 
