@@ -12,18 +12,6 @@
 #include<util/delay.h>
 #include<avr/io.h>
 /**
- * @brief initializing timer and counter register
- * 
- */
-void InitialisePWM(void)
-{
-    /*Configuring the registers and ports*/
-    TCCR1A|=(1<<COM1A1)|(1<<WGM10)|(1<<WGM11);
-    TCCR1B|=(1<<WGM12)|(1<<CS11)|(1<<CS10);
-    DDRB|=(1<<PB1);
-
-}
-/**
  * @brief Output with respect to analog input
  * 
  * @param ADC_val 
@@ -62,4 +50,16 @@ char OutputPWM (uint16_t ADC_value)
         tempe = 0;
     }
     return tempe;
+}
+/**
+ * @brief initializing timer and counter register
+ * 
+ */
+void InitialisePWM(void)
+{
+    /*Configuring the registers and ports*/
+    TCCR1A|=(1<<COM1A1)|(1<<WGM10)|(1<<WGM11);
+    TCCR1B|=(1<<WGM12)|(1<<CS11)|(1<<CS10);
+    DDRB|=(1<<PB1);
+
 }
